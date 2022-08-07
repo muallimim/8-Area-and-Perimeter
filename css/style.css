@@ -1,0 +1,50 @@
+body{
+    background-color: darkgoldenrod;
+}
+
+
+
+.container{
+    background-color: burlywood;
+    width: 45vw;
+    margin: auto;
+    padding: 15px;
+}
+ 
+
+.shape {
+    background-color: darksalmon;
+    margin: 10px 0px;
+}
+
+fieldset{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+input[type=text]{
+    background-color:rgb(236, 177, 157);
+    width: 15%;
+    text-align: center;
+    font-size: 26px;
+    border-radius: 50%;
+    border: 1px solid whitesmoke
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.buttons input[type=submit]{
+    margin: 5px;
+    padding: 10px 10px;
+    background-color: rgb(224, 117, 82);
+}
+
+.buttons input[type=submit]:hover{
+    color: white;
+    border-color: #888;
+}
