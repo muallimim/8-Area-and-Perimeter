@@ -21,8 +21,8 @@
                     <input type="text" id="side2triangle">
                     <input type="text" id="side3triangle">
                     <div class="buttons">
-                        <input type="submit" value="Find Area">
-                        <input type="submit" value="Find Perimeter">
+                        <input type="submit" value="Find Area" onclick="triangleArea()">
+                        <input type="submit" value="Find Perimeter" onclick="trianglePerimeter()">
                     </div>
                 </fieldset>
             </form>
@@ -37,8 +37,8 @@
                     <input type="text" id="side1rectangle">
                     <input type="text" id="side2rectangle">
                     <div class="buttons">
-                        <input type="submit" value="Find Area">
-                        <input type="submit" value="Find Perimeter">
+                        <input type="submit" value="Find Area" onclick="rectangleArea()">
+                        <input type="submit" value="Find Perimeter" onclick="rectanglePerimeter()">
                     </div>
                 </fieldset>
             </form>
@@ -52,12 +52,17 @@
                     </legend>
                     <input type="text" id="side1square">
                     <div class="buttons">
-                        <input type="submit" value="Find Area">
-                        <input type="submit" value="Find Perimeter">
+                        <input type="submit" value="Find Area" onclick="squareArea()">
+                        <input type="submit" value="Find Perimeter" onclick="squarePerimeter()">
                     </div>
                 </fieldset>
             </form>
         </div>
     </div>
+
+<script src="js/rectangle.js"></script>
+<script src="js/square.js"></script>
+
+
 </body>
 </html>
