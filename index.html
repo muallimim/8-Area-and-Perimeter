@@ -21,8 +21,8 @@
                     <input type="text" id="side2triangle">
                     <input type="text" id="side3triangle">
                     <div class="buttons">
-                        <input type="submit" value="Find Area" onclick="triangleArea()">
-                        <input type="submit" value="Find Perimeter" onclick="trianglePerimeter()">
+                        <input type="submit" id="triangleArea" value="Find Area" onclick="triangleArea()">
+                        <input type="submit" id="trianglePerimeter" value="Find Perimeter">
                     </div>
                 </fieldset>
             </form>
@@ -58,8 +58,12 @@
                 </fieldset>
             </form>
         </div>
+        <div id="result">
+
+        </div>
     </div>
 
+<script src="js/triangle.js"></script>
 <script src="js/rectangle.js"></script>
 <script src="js/square.js"></script>
 
